@@ -1,0 +1,174 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+//navbar
+
+
+
+//body
+$body-bg: #33434d;
+$body-color: white;
+//main
+$main-bg-color: #352642;
+$aligntment: center;
+
+//buttons
+$btn-color: #0f9096 ;
+$btn-color-onlick: #42ecf5 ;
+$btn-color-border: #0f9096;
+$font-color:  rgba(255, 255, 255, 1);
+$icon-color: #0f9096;
+//product display
+$product-height: 200px;
+$product-width: 340px;
+
+
+
+
+html,body{
+  //colors
+  background-color: white !important;
+  //fonts
+  font-family: 'Roboto', sans-serif;
+  //paddings
+  padding-top: 30px;
+  padding-right: 10px;
+
+}
+
+nav{
+  //color
+  background: rgb(252,60,223);
+  background: linear-gradient(90deg, rgba(252,60,223,0.9121849423363095) 12%, rgba(10,0,255,1) 100%);
+  //position
+  position: fixed;
+  //padding
+  padding-left: 10px;
+  top: 0;
+  width: 100%; /* Full width */
+
+}
+
+#sidebar{
+  background-color: #fd3e81;
+  padding-top: 30px;
+
+  hr{
+
+    color: white;
+  }
+
+  .btn:hover{
+    color:#fd3e81;
+    background-color:white;
+  }
+}
+
+
+//main{
+  //background-color: $body-color;
+  //float: left;
+
+//}
+
+#product_display{
+  //color
+  color: black;
+  background-color: white;
+  border-color: pink;
+  border-radius: 1px;
+  border-right-width: thick;
+  border: 1px;
+  //padding
+  //padding-left: 20px;
+  //padding-right: 20px;
+  margin-left: 20px;
+  width: $product-width;
+  height: $product-height;
+  //font
+  font-size: .9em;
+  p{
+    padding-left: 30px;
+
+    display: table;
+    margin:auto;
+    width: 160px;
+
+  }
+
+  img{
+    margin:auto;
+    height: auto;
+    width: auto;
+    max-height: $product-height - 10;
+    max-width: $product-width/2 - 20;
+    padding: 10px;
+    //padding-top: 10px;
+    //padding-left: 10px;
+    //padding-right: 10px;
+    //padding-bottom: 10px;
+
+  }
+  price{
+    align-self: baseline;
+    font-size: 1.8em;
+  }
+
+}
+
+#addProduct{
+  color: black;
+  background-color: white;
+
+  margin-left: 300px;
+  img{
+    margin: auto;
+    height: auto;
+    max-width: 300px;
+    //max-height: 150px;
+  }
+
+}
+
+
+login-form
+
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+
+button {
+  //display: block;
+  border-color: none;
+  background-color: #35547b;
+  color: $font-color;
+  //display:block;
+  //line-height:80px;
+  border-radius: 50%;
+  text-align:center;
+  text-decoration:none;
+  //width: 50px;
+  //height: 50px;
+  //border-radius: 50%;
+  //border: 1px solid;
+}
+
+button:hover{
+
+  background-color: #5b5a98;
+  color: $font-color;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+//@import 'node_modules/material-design-icons/iconfont/material-icons';
+//@import 'app';  just a test
+@import 'bootstrap/scss/bootstrap.scss';
